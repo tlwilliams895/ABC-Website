@@ -7,3 +7,11 @@ def index(request):
     template_name = "index.html"
     context = {'message': message} #Can be displayed using double curly brace notation in your html template
     return render(request, template_name, context)
+
+
+def mission(request):
+    message = "This is ABC's mission statement."
+    statement = "Insert mission statement below."
+    template_name = "mission.html"
+    context = {'message': message, 'statement': statement}
+    return render(request, template_name, context)

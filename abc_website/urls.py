@@ -16,9 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from .views import index #Imports the index view which we created in views.py file
+from .views import index, mission #Imports the index view which we created in views.py file
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),#Path to the index.html template. Empty quotes are equivalent to '/' or localhost8000
+    path('mission/', mission, name='mission'),
 ]
