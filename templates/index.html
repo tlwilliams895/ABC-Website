@@ -1,20 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <Title>Aspiring Black Coders</Title>
+    <head> 	
+        <Title>Aspiring Black Coders</Title>    
     </head>
-    <body>
-        <h1>{{ message }} </h1><!-- Double curly braces allow you to display whatever is passed from the views.py via "context"-->
+   <body>
+<!-- I want to add this tag line below the title: "A community for people of color aspiring to begin and grow careers in tech together." but I'm not sure how to do this within the h1 tag. I want it all to be within the blue header.-->
+        <center> <h1>{{ message }} </h1></center> <!-- Double curly braces allow you to display whatever is passed from the views.py via "context"-->
 
         <style>
+/* editing the header backkground color, size etc */
+			h1 {
 
-			h1{
-				color: #696969;
-				font-family: 'Optima';
-				font-size: 80%
+				background-color: #09A7A1;
+        		padding: 0.50em;
+				color: white;
+				font-family: 'Lucida Grande';
+				font-size: 200%;
+				
+
 			}
 
-					
+/* below setting all the font styles and colors for the page links */
+			 div{
+
+				color: #696969;
+				font-family: 'Lucida Grande';
+			} 
+             
+			.container {
+				display: flex;
+/* below was to center all of the page links, but its still a little off */
+				justify-content: center;
+				justify-content: space-between;
+				justify-content: space-around;
+				position: relative;
+				top: 80px;
+				left: 40px;
+			}
+/* below are squares, and shadow and spacing for the page links. Would like to build on this/update the code so it looks more like the wireframe. */
+			.join-us {
+				border-style: solid;
+				border-color:  #d9d9d9;
+				padding-top: 20px;
+		        padding-right: 30px;
+		        padding-bottom: 20px;
+		        padding-left: 20px;
+				font-size: 200%;
+				white-space: nowrap;
+				box-shadow: 2px 2px 4px #000000;
+			}
+
+			.learning-res {
+				border-style: solid;
+				border-color: #d9d9d9;
+		        padding-top: ;
+		        padding-top: 20px;
+		        padding-right: 30px;
+		        padding-bottom: 20px;
+		        padding-left: 20px;
+				font-size: 200%;
+				white-space: nowrap;
+				box-shadow: 2px 2px 4px #000000;		
+			}
+
+			.job-board {
+				border-style: solid;
+				border-color:  #d9d9d9;
+				padding-top: 20px;
+		        padding-right: 30px;
+		        padding-bottom: 20px;
+		        padding-left: 20px;
+				font-size: 200%;
+				box-shadow: 2px 2px 4px #000000;
+			
+			}		
+			
 		</style>
+	<!-- naming the classes based on the page links. -->
+			<div class= "container">
+			<div class = "join-us">Join Us </div>
+			<div class = "learning-res">Learning Resources</div>
+			<div class = "job-board">Job Board </div>
+
+
+
+	
+
     </body>
 </html>
