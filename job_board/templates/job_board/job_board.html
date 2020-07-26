@@ -7,15 +7,31 @@
     <header>
         <style>
             div {
+                background-color: #9fcfbe;
                 width: 600px;
                 padding: 10px;
                 height: auto;
                 color: black;
                 border: 1px solid grey;
-                margin: 1.5em;
+                margin: 1.7em;
                 display: inline-block;
                 text-align: center;
                 box-shadow: 5px 5px rgb(65, 64, 64);
+            }
+
+            button {
+                border: 1px solid #2f3e39;
+                border-radius: 5px;
+                padding: 5px;
+                box-shadow: 2px 2px rgb(65, 64, 64);
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            a:visited {
+                color: blue;   
             }
 
             h1 {
@@ -33,7 +49,9 @@
                 <p>Job ID: {{ job.id }}</p>
                 <p>Location: {{ job.locations }}</p>
                 <p>Posting Date: {{ job.publication_date }}</p>
-                <a href="{{ job.refs.landing_page }}">Apply Here</a>
+                <button>
+                    <a href="{{ job.refs.landing_page }}">Apply Now</a>
+                </button>
             </div>
             {% endfor %}
         </ul> 
