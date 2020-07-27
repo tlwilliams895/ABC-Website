@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 from .views import index, mission #Imports the index view which we created in views.py file
 
@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),#Path to the index.html template. Empty quotes are equivalent to '/' or localhost8000
     path('mission/', mission, name='mission'),
+    path('', include('job_board.urls')),
 ]
