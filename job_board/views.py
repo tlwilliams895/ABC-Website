@@ -12,4 +12,3 @@ def get_jobs(request):
         }
 
     return render(request, 'job_board/job_board.html', context)
-
