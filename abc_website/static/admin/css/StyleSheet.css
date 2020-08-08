@@ -1,0 +1,60 @@
+button {
+    border: 1px solid #2f3e39;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px rgb(65, 64, 64);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+#container {
+
+    background-color: #9fcfbe;
+    box-shadow: 2px 2px 4px #000000;
+
+}
+
+h1 {
+    text-align: center;
+    background-color: #9fcfbe;
+    padding: 0.50em;
+    color: white;
+    font-family: 'Lucida Grande', sans-serif;
+    font-size: 200%;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+#header {
+    float: left;
+    margin: 1em;
+    width: 25px;
+    height: 10px;
+    padding: 35px 200px;
+    font-size-adjust: inherit;
+    box-shadow: 2px 2px 4px #000000;
+    font-family: 'Lucida Grande', sans-serif;
+    color: #2f3e39;
+}
+
+#tagLine {
+    background-color: #9fcfbe;
+    padding: 0.50em;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Grande', sans-serif;
+    font-size: 80%;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+/* CSS Styling for join us */
+#gc {
+    background-image: url('/staticfiles/admin/img/adi-goldstein-mDinBvq1Sfg-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}

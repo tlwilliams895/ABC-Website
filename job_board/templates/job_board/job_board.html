@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'admin/css/StyleSheet.css' %}">
+        <title>Career Page</title>
+    </head>
+    <header>
+
+    </header>
+    <body>
+        <h1>Latest Jobs</h1>
+        <ul>
+            {% for job in jobs %} 
+            <div>
+                <p>Company: {{ job.company.name }}</p>
+                <p>Job Title: {{ job.name }}</p>
+                <p>Job ID: {{ job.id }}</p>
+                <p>Location: {{ job.locations }}</p>
+                <p>Posting Date: {{ job.publication_date }}</p>
+                <button>
+                    <a href="{{ job.refs.landing_page }}">Apply Now</a>
+                </button>
+            </div>
+            {% endfor %}
+        </ul> 
+    </body>
+</html>
