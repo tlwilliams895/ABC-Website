@@ -15,16 +15,13 @@ Including another URL conf
 """
 from django.contrib import admin
 from django.urls import path, include
-from django.conf import settings
-from django.conf.urls.static import static
+from .views import Index
 
-from .views import index, mission  # Imports the index view which we created in views.py file
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index, name='index'),
-    # Path to the index.html template. Empty quotes are equivalent to '/' or localhost8000
-    path('mission/', mission, name='mission'),
     path('', include('job_board.urls')),
-    path('', include('join_us.url')),
+    path('', Index.as_view(), name='home'),
+    path('', include('join_us.urls'))
+
 ]

@@ -1,9 +1,7 @@
-from django.shortcuts import render, redirect
+from django.views.generic import TemplateView
 
 
-# Create your views here.
-def join_us(request):
-    message = "Aspiring Black Coders"
-    return render(request, 'join_us.html')
+class JoinUs(TemplateView):
+    template_name = 'joinUs.html'
 
 

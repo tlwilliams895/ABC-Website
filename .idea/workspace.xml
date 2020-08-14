@@ -26,144 +26,35 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71132917-ecd9-49d1-93cb-a263acbf6297" name="Default Changelist" comment="rebase save">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/787dfb10-939f-42de-80fc-8469d5e5a453.xml" beforeDir="false" />
+    <list default="true" id="71132917-ecd9-49d1-93cb-a263acbf6297" name="Default Changelist" comment="removed 'staticfiles folder'">
+      <change afterPath="$PROJECT_DIR$/abc_website/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/migrations/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc_website/static/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc_website/static/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc_website/static/migrations/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abc_website/static/templates/join_us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/join_us/migrations/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/join_us/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/joinUs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCMysqlNotes" beforeDir="false" afterPath="$PROJECT_DIR$/ABCMysqlNotes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/abc_website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/abc_website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/StyleSheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/changelists.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/responsive_rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/widgets.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/adi-goldstein-mDinBvq1Sfg-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/calendar-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-addlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-alert.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-calendar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-changelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-deletelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-no.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-viewlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-yes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/selector-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/sorting-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-add.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/SelectBox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/SelectFilter2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/actions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/cancel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/change_form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/collapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/collapse.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/inlines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/inlines.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/jQuery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/jquery.init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/popup_response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate_init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/urlify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abc_website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/abc_website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abc_website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/abc_website/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/join_us/templates/join_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/abc_website/static/admin/templates/join_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/join_us/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/abc_website/static/admin/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/join_us/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/join_us/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mission.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,10 +67,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="Python Script" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -224,8 +115,11 @@
       <recent name="$PROJECT_DIR$/staticfiles/admin/img" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.ABC-Website">
-    <configuration name="127.0.0.1:8000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://127.0.0.1:8000/">
+  <component name="RunManager" selected="Django Server.Unnamed">
+    <configuration name="127.0.0.1:8000" type="JavascriptDebugType" nameIsGenerated="true" uri="http://127.0.0.1:8000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost:8080" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/">
       <method v="2" />
     </configuration>
     <configuration name="ABC-Website" type="Python.DjangoServer" factoryName="Django server">
@@ -234,6 +128,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="abc_website.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -258,7 +153,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../test/venv/bin/python" />
+      <option name="SDK_HOME" value="$USER_HOME$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -278,10 +173,11 @@
       <item itemvalue="Django Server.Unnamed" />
       <item itemvalue="Django Server.ABC-Website" />
       <item itemvalue="JavaScript Debug.127.0.0.1:8000" />
+      <item itemvalue="JavaScript Debug.localhost:8080" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.127.0.0.1:8000" />
+        <item itemvalue="JavaScript Debug.localhost:8080" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +205,7 @@
       <workItem from="1596911424129" duration="291000" />
       <workItem from="1596911717886" duration="2483000" />
       <workItem from="1597358430978" duration="3451000" />
-      <workItem from="1597367000391" duration="700000" />
+      <workItem from="1597367000391" duration="18359000" />
     </task>
     <task id="LOCAL-00001" summary="My Bad had the wrong repo matched to this site">
       <created>1595378280596</created>
@@ -332,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596912058131</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="removed 'staticfiles folder'">
+      <created>1597367725936</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597367725936</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +270,8 @@
     <MESSAGE value="My Bad had the wrong repo matched to this site" />
     <MESSAGE value="Updated Repo" />
     <MESSAGE value="rebase save" />
-    <option name="LAST_COMMIT_MESSAGE" value="rebase save" />
+    <MESSAGE value="removed 'staticfiles folder'" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed 'staticfiles folder'" />
   </component>
   <component name="WindowStateProjectService">
     <state x="459" y="124" key="#ABC-Website" timestamp="1595808802903">
@@ -375,19 +279,19 @@
     </state>
     <state x="459" y="124" key="#ABC-Website/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595808802903" />
     <state x="2379" y="128" key="#ABC-Website/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594439050269" />
-    <state x="936" y="304" key="#Web_Browsers" timestamp="1596839616982">
+    <state x="936" y="304" key="#Web_Browsers" timestamp="1597381653589">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="936" y="304" key="#Web_Browsers/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596839616982" />
-    <state x="227" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596838890270">
+    <state x="936" y="304" key="#Web_Browsers/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381653589" />
+    <state x="227" y="197" width="1071" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597381762268">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="227" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596838890270" />
+    <state x="227" y="197" width="1071" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381762268" />
     <state x="2147" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594438971856" />
-    <state x="589" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596896279149">
+    <state x="589" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597417264921">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="589" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596896279149" />
+    <state x="589" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597417264921" />
     <state x="381" y="88" key="DiffContextDialog" timestamp="1595810431946">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -400,54 +304,54 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="906" y="389" key="Github.CreatePullRequestDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595809628517" />
-    <state width="1462" height="324" key="GridCell.Tab.0.bottom" timestamp="1596909263149">
+    <state width="1357" height="324" key="GridCell.Tab.0.bottom" timestamp="1597381667863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1462" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596909263149" />
-    <state width="1462" height="324" key="GridCell.Tab.0.center" timestamp="1596909263149">
+    <state width="1357" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381667863" />
+    <state width="1357" height="324" key="GridCell.Tab.0.center" timestamp="1597381667863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1462" height="324" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596909263149" />
-    <state width="1462" height="324" key="GridCell.Tab.0.left" timestamp="1596909263149">
+    <state width="1357" height="324" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381667863" />
+    <state width="1357" height="324" key="GridCell.Tab.0.left" timestamp="1597381667863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1462" height="324" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596909263149" />
-    <state width="1462" height="324" key="GridCell.Tab.0.right" timestamp="1596909263149">
+    <state width="1357" height="324" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381667863" />
+    <state width="1357" height="324" key="GridCell.Tab.0.right" timestamp="1597381667863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1462" height="324" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596909263149" />
-    <state width="1462" height="324" key="GridCell.Tab.1.bottom" timestamp="1596909263149">
+    <state width="1357" height="324" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381667863" />
+    <state width="1357" height="324" key="GridCell.Tab.1.bottom" timestamp="1597381667863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1462" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596909263149" />
-    <state width="1462" height="324" key="GridCell.Tab.1.center" timestamp="1596909263149">
+    <state width="1357" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381667863" />
+    <state width="1357" height="324" key="GridCell.Tab.1.center" timestamp="1597381667863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1462" height="324" key="GridCell.Tab.1.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596909263149" />
-    <state width="1462" height="324" key="GridCell.Tab.1.left" timestamp="1596909263149">
+    <state width="1357" height="324" key="GridCell.Tab.1.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381667863" />
+    <state width="1357" height="324" key="GridCell.Tab.1.left" timestamp="1597381667863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1462" height="324" key="GridCell.Tab.1.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596909263149" />
-    <state width="1462" height="324" key="GridCell.Tab.1.right" timestamp="1596909263149">
+    <state width="1357" height="324" key="GridCell.Tab.1.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381667863" />
+    <state width="1357" height="324" key="GridCell.Tab.1.right" timestamp="1597381667863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1462" height="324" key="GridCell.Tab.1.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596909263149" />
-    <state width="1462" height="324" key="GridCell.Tab.2.bottom" timestamp="1596909263149">
+    <state width="1357" height="324" key="GridCell.Tab.1.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381667863" />
+    <state width="1357" height="324" key="GridCell.Tab.2.bottom" timestamp="1597381667864">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1462" height="324" key="GridCell.Tab.2.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596909263149" />
-    <state width="1462" height="324" key="GridCell.Tab.2.center" timestamp="1596909263149">
+    <state width="1357" height="324" key="GridCell.Tab.2.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381667864" />
+    <state width="1357" height="324" key="GridCell.Tab.2.center" timestamp="1597381667863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1462" height="324" key="GridCell.Tab.2.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596909263149" />
-    <state width="1462" height="324" key="GridCell.Tab.2.left" timestamp="1596909263149">
+    <state width="1357" height="324" key="GridCell.Tab.2.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381667863" />
+    <state width="1357" height="324" key="GridCell.Tab.2.left" timestamp="1597381667863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1462" height="324" key="GridCell.Tab.2.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596909263149" />
-    <state width="1462" height="324" key="GridCell.Tab.2.right" timestamp="1596909263149">
+    <state width="1357" height="324" key="GridCell.Tab.2.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381667863" />
+    <state width="1357" height="324" key="GridCell.Tab.2.right" timestamp="1597381667864">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1462" height="324" key="GridCell.Tab.2.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596909263149" />
+    <state width="1357" height="324" key="GridCell.Tab.2.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381667864" />
     <state width="235" height="500" key="HiddenNamespacesPopup" timestamp="1596912838539">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -468,14 +372,14 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="549" y="118" width="1200" height="800" key="ShowDiffWithBranchDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596912075390" />
-    <state x="897" y="354" key="Vcs.Push.Dialog.v2" timestamp="1596912121847">
+    <state x="897" y="354" key="Vcs.Push.Dialog.v2" timestamp="1597367731598">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="897" y="354" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596912121847" />
-    <state x="947" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596911746273">
+    <state x="897" y="354" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597367731598" />
+    <state x="947" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597369169934">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="947" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596911746273" />
+    <state x="947" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597369169934" />
     <state x="976" y="280" key="git4idea.branch.GitBranchIsNotFullyMergedDialog" timestamp="1595809109607">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
