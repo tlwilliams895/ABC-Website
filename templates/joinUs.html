@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 
-</body>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'admin/css/StyleSheet.css' %}">
+        <Title>{{ title }}</Title>
+    </head>
+	<header>
+        <h1>{{ message }} </h1> <!-- Double curly braces allow you to display whatever is passed from the views.py via "context"-->
+        <p id="tagLine"> <em> {{ statement }}</em></p>
+    </header>
+
+    <body>
+        <form action="joinUs.html" method="post">
+            <label for="your_name">Your name: </label>
+            <input id="your_name" type="text" name="your_name" value="{{ current_name }}">
+            <input type="submit" value="OK">
+        </form>
+    </body>
 </html>

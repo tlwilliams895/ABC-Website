@@ -6,5 +6,6 @@
 (8/14/2020) created new joinUs/views.py file added url pattern to join_us project and parent project
 (8/14/2020) deleted join_us.html rename joinUs to match class object call (will add a html form to this file to support models)
 (8/14/2020) templates folder contains all html files to serve website
-
+(8/14/2020) added base.html file (used to extend any projects to default heading and message)
+(8/14/2020) created new static function within the abc_website/views.py file
 (00/14/2020) commit and push to mysqldevbranch

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,35 +29,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71132917-ecd9-49d1-93cb-a263acbf6297" name="Default Changelist" comment="removed 'staticfiles folder'">
-      <change afterPath="$PROJECT_DIR$/abc_website/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/migrations/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc_website/static/admin/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc_website/static/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc_website/static/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc_website/static/migrations/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abc_website/static/templates/join_us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/join_us/migrations/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/join_us/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/joinUs.html" afterDir="false" />
+    <list default="true" id="71132917-ecd9-49d1-93cb-a263acbf6297" name="Default Changelist" comment="Ignore this pull request.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ABCMysqlNotes" beforeDir="false" afterPath="$PROJECT_DIR$/ABCMysqlNotes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abc_website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/abc_website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abc_website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/abc_website/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/abc_website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/abc_website/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/join_us/templates/join_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/abc_website/static/admin/templates/join_us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/join_us/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/abc_website/static/admin/url.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/join_us/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/join_us/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mission.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/joinUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/joinUs.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +187,7 @@
       <workItem from="1596911424129" duration="291000" />
       <workItem from="1596911717886" duration="2483000" />
       <workItem from="1597358430978" duration="3451000" />
-      <workItem from="1597367000391" duration="18359000" />
+      <workItem from="1597367000391" duration="24174000" />
     </task>
     <task id="LOCAL-00001" summary="My Bad had the wrong repo matched to this site">
       <created>1595378280596</created>
@@ -235,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597367725936</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ignore this pull request.">
+      <created>1597426535562</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597426535562</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +260,8 @@
     <MESSAGE value="Updated Repo" />
     <MESSAGE value="rebase save" />
     <MESSAGE value="removed 'staticfiles folder'" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed 'staticfiles folder'" />
+    <MESSAGE value="Ignore this pull request." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ignore this pull request." />
   </component>
   <component name="WindowStateProjectService">
     <state x="459" y="124" key="#ABC-Website" timestamp="1595808802903">
@@ -372,10 +362,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="549" y="118" width="1200" height="800" key="ShowDiffWithBranchDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596912075390" />
-    <state x="897" y="354" key="Vcs.Push.Dialog.v2" timestamp="1597367731598">
+    <state x="897" y="354" key="Vcs.Push.Dialog.v2" timestamp="1597426548456">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="897" y="354" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597367731598" />
+    <state x="897" y="354" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597426548456" />
     <state x="947" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597369169934">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -400,6 +390,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="922" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596911962712" />
+    <state x="815" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1597428333139">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="815" y="248" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597428333139" />
     <state x="2413" y="438" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594439161024">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
