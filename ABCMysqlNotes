@@ -13,11 +13,11 @@
             created new static function within the abc_website/views.py file
             created forms.py to handle Post request to sample db
             updated joinUs.html for form submissions
-            removed ContactID column (not needed) //Might end up adding a textfield
+            removed ContactID column (not needed) //May end up adding a textfield
                 --updated db with correct columns and max inputs
             created function 'createContact' on join_us/views.py
                 --redirects back to homepage abc_website/index.html
-            updated parent views and url files route to correct pages
+            updated parent views and url files to route to correct pages
 
 
 
