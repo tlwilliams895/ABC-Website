@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import JoinUs
+from .views import createContact
 
 """
 Class-based views
@@ -7,5 +7,5 @@ Class-based views
     2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')"""
 
 urlpatterns = [
-    path('join_us/', JoinUs.as_view(), name='JoinUs')
+    path('join_us/', createContact, name='contact')
 ]

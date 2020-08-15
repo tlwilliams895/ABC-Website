@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+        {% extends 'base.html' %}
         {% load static %}
         <link rel="stylesheet" href="{% static 'admin/css/StyleSheet.css' %}">
-        <Title>{{ title }}</Title>
-    </head>
-	<header>
-        <h1>{{ message }} </h1> <!-- Double curly braces allow you to display whatever is passed from the views.py via "context"-->
-        <p id="tagLine"> <em> {{ statement }}</em></p>
-    </header>
-
-    <body>
-        <form action="joinUs.html" method="post">
-            <label for="your_name">Your name: </label>
-            <input id="your_name" type="text" name="your_name" value="{{ current_name }}">
-            <input type="submit" value="OK">
+    <h1>Contact Form</h1>
+<body>
+        {% block content %}
+        <form action="" method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Post"/>
         </form>
+        {% endblock content %}
     </body>
 </html>

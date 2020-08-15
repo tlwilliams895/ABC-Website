@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        {% extends 'base.html' %}
         {% load static %}
         <link rel="stylesheet" href="{% static 'admin/css/StyleSheet.css' %}">
-        <Title>{{ title }}</Title>
-    </head>
-	<header>
-        <h1>{{ message }} </h1> <!-- Double curly braces allow you to display whatever is passed from the views.py via "context"-->
-        <p id="tagLine"> <em> {{ statement }}</em></p>
-    </header>
-
-<body>
-	<!-- naming the classes based on the page links. -->
-	<div id="container">
-            <div id="header" class= "join-us"><a href="http://localhost:8000/join_us">Join Us</a></div>
-			<div id="header" class= "learning-res">Learning Resources</div>
-			<div id="header" class= "job-board"><a href="http://localhost:8000/job_board">Job Board</a></div>
-	</div>
+    <body>
+        {% block content %}
+        <!-- naming the classes based on the page links. -->
+        <div id="container">
+                <div id="header" class= "join-us"><a href="http://localhost:8000/join_us">Join Us</a></div>
+                <div id="header" class= "learning-res">Learning Resources</div>
+                <div id="header" class= "job-board"><a href="http://localhost:8000/job_board">Job Board</a></div>
+        </div>
+    {% endblock content %}
 </body>
   
 </html>

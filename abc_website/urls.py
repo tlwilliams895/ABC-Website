@@ -16,12 +16,13 @@ Including another URL conf
 from django.contrib import admin
 from django.urls import path, include
 from .views import Index
+from join_us.views import createContact
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('job_board.urls')),
     path('', Index.as_view(), name='home'),
-    path('', include('join_us.urls'))
-
+    path('', include('join_us.urls')),
+    path('', createContact, name='createContact')
 ]
