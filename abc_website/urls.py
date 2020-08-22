@@ -15,7 +15,6 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
 from .views import index, mission #Imports the index view which we created in views.py file
 
 urlpatterns = [

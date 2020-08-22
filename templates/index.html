@@ -1,92 +1,14 @@
-<!DOCTYPE html>
-<html>
-    	
-        <Title>Aspiring Black Coders</Title> 
+{% extends "base.html" %}
 
+{% block content %}
 	<header>
-        <center> <h1>{{ message }} </h1></center> <!-- Double curly braces allow you to display whatever is passed from the views.py via "context"-->	
-       <strong><center> <p>A community for people of color aspiring to begin and grow careers in tech together.</p></center></strong>
-    </header>
-    	<style>
-/* editing the header backkground color, size etc */
-			h1 {
-
-				background-color: #9fcfbe;
-        		padding: 0.50em;
-				color: white;
-				font-family: 'Lucida Grande';
-				font-size: 200%;
-				box-shadow: 2px 2px 4px #000000;				
-			}
-
-			p{
-				background-color: #9fcfbe;
-        		padding: 0.50em;
-				color: white;
-				font-family: 'Lucida Grande';
-				font-size: 80%;	
-				box-shadow: 2px 2px 4px #000000;
-				
-			}
-			
-             
-			/*.container {*/
-				
-/* below was to center all of the page links, but its still a little off */
-
-				
-			
-/* below are squares, and shadow and spacing for the page links. Would like to build on this/update the code so it looks more like the wireframe. */
-			.join-us {
-				padding-top: 35px;
-				padding-right: 200px;
-				padding-bottom: 35px;
-				padding-left: 200px;
-				font-size: 200%;
-				box-shadow: 2px 2px 4px #000000;
-				font-family: 'Lucida Grande';
-				font-size: 100%;
-				color: #2f3e39;
-				width: 60px;
-
-			}
-
-			.learning-res {
-				padding-top: 35px;
-				padding-right: 200px;
-				padding-bottom: 35px;
-				padding-left: 200px;
-				box-shadow: 2px 2px 4px #000000;	
-				font-family: 'Lucida Grande';
-				font-size: 100%;
-				color: #2f3e39;
-				width: 60px;
-
-			}
-
-			.job-board {
-				padding-top: 35px;
-				padding-right: 200px;
-				padding-bottom: 35px;
-				padding-left: 200px;
-				box-shadow: 2px 2px 4px #000000;
-				font-family: 'Lucida Grande';
-                font-size: 100%;
-				color: #2f3e39;
-				width: 60px;
-			
-			}		
-			
-		</style>
-	
-<body>
-	<!-- naming the classes based on the page links. -->
-	<center>
-			<div class= "container"></div>
+		<center> <h1>{{ message }} </h1></center> <!--Double curly braces allow you to display whatever is passed from the views.py via "context"-->	
+		<strong><center> <p>A community for people of color aspiring to begin and grow careers in tech together.</p></center></strong>
+	</header>
+		<!-- naming the classes based on the page links. -->
+		<center>
 			<div class = "join-us">Join Us</div>
 			<div class = "learning-res">Learning Resources</div>
-			<div class = "job-board"><a href="http://localhost:8000/job_board">Job Board</a></div>
-	</center>
-</body>
-  
-</html>
+			<div class = "job-board"><a href="job_board/">Job Board</a></div>
+		</center>
+{% endblock %}
