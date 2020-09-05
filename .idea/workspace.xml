@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ABC-Website" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ABC-Website" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:ABC-Website/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="71132917-ecd9-49d1-93cb-a263acbf6297" name="Default Changelist" comment="--See ABCMysqlNotes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="JupyterTrust" id="13b13b40-15c9-491d-be48-79c71d059014" />
+  <component name="ProjectId" id="1eWYRBwgwXZ2J30eCi7umpm9WAv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/join_us/templates" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/join_us" />
+      <recent name="$PROJECT_DIR$/job_board/templates/job_board" />
+      <recent name="$PROJECT_DIR$/staticfiles/admin/img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.ABC-Website">
+    <configuration name="127.0.0.1:8000" type="JavascriptDebugType" nameIsGenerated="true" uri="http://127.0.0.1:8000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost:8080" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/">
+      <method v="2" />
+    </configuration>
+    <configuration name="ABC-Website" type="Python.DjangoServer" factoryName="Django server">
+      <module name="ABC-Website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+      <module name="ABC-Website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.ABC-Website" />
+      <item itemvalue="Django Server.Unnamed" />
+      <item itemvalue="JavaScript Debug.127.0.0.1:8000" />
+      <item itemvalue="JavaScript Debug.localhost:8080" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:8080" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71132917-ecd9-49d1-93cb-a263acbf6297" name="Default Changelist" comment="" />
+      <created>1594438805969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594438805969</updated>
+      <workItem from="1594438808427" duration="356000" />
+      <workItem from="1595378145397" duration="796000" />
+      <workItem from="1595539439089" duration="31000" />
+      <workItem from="1595622231139" duration="57000" />
+      <workItem from="1595808496154" duration="313000" />
+      <workItem from="1595808819114" duration="822000" />
+      <workItem from="1595809650175" duration="2840000" />
+      <workItem from="1596838643320" duration="18611000" />
+      <workItem from="1596893953453" duration="11335000" />
+      <workItem from="1596909270528" duration="1055000" />
+      <workItem from="1596911424129" duration="291000" />
+      <workItem from="1596911717886" duration="2483000" />
+      <workItem from="1597358430978" duration="3451000" />
+      <workItem from="1597367000391" duration="27536000" />
+      <workItem from="1597446559598" duration="7742000" />
+      <workItem from="1597523187153" duration="303000" />
+      <workItem from="1598116105665" duration="5413000" />
+      <workItem from="1598147272739" duration="12000" />
+      <workItem from="1599325064501" duration="1431000" />
+      <workItem from="1599326801054" duration="28000" />
+    </task>
+    <task id="LOCAL-00001" summary="My Bad had the wrong repo matched to this site">
+      <created>1595378280596</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595378280596</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated Repo">
+      <created>1596911486323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596911486323</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rebase save">
+      <created>1596912058131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596912058131</updated>
+    </task>
+    <task id="LOCAL-00004" summary="removed 'staticfiles folder'">
+      <created>1597367725936</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597367725936</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ignore this pull request.">
+      <created>1597426535562</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597426535562</updated>
+    </task>
+    <task id="LOCAL-00006" summary="--created class objects for both abc_website/ view.py and join_us/views.py&#10;&#10;--created static function for abc_website/ views.py Index object to pass in extra_content to serve on index.html page&#10;&#10;--See ABCMysqlNotes for additional changes">
+      <created>1597438106844</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597438106844</updated>
+    </task>
+    <task id="LOCAL-00007" summary="--See ABCMysqlNotes">
+      <created>1597452975600</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597452975600</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="ABC-Website/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="My Bad had the wrong repo matched to this site" />
+    <MESSAGE value="Updated Repo" />
+    <MESSAGE value="rebase save" />
+    <MESSAGE value="removed 'staticfiles folder'" />
+    <MESSAGE value="Ignore this pull request." />
+    <MESSAGE value="--created class objects for both abc_website/ view.py and join_us/views.py&#10;&#10;--created static function for abc_website/ views.py Index object to pass in extra_content to serve on index.html page&#10;&#10;--See ABCMysqlNotes for additional changes" />
+    <MESSAGE value="--See ABCMysqlNotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="--See ABCMysqlNotes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="459" y="124" key="#ABC-Website" timestamp="1595808802903">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="459" y="124" key="#ABC-Website/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595808802903" />
+    <state x="2379" y="128" key="#ABC-Website/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594439050269" />
+    <state x="752" y="175" key="#Plugins" timestamp="1597450271041">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="752" y="175" key="#Plugins/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597450271041" />
+    <state x="936" y="304" key="#Web_Browsers" timestamp="1597381653589">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="936" y="304" key="#Web_Browsers/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381653589" />
+    <state x="227" y="197" width="1071" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597381762268">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="227" y="197" width="1071" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597381762268" />
+    <state x="2147" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594438971856" />
+    <state x="589" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597417264921">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="589" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597417264921" />
+    <state x="381" y="88" key="DiffContextDialog" timestamp="1595810431946">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="381" y="88" key="DiffContextDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595810431946" />
+    <state x="937" y="278" width="424" height="479" key="FileChooserDialogImpl" timestamp="1598147279538">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="937" y="278" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1598147279538" />
+    <state x="906" y="389" key="Github.CreatePullRequestDialog" timestamp="1595809628517">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="906" y="389" key="Github.CreatePullRequestDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595809628517" />
+    <state width="929" height="262" key="GridCell.Tab.0.bottom" timestamp="1599326718050">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="929" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1599326718050" />
+    <state width="929" height="262" key="GridCell.Tab.0.center" timestamp="1599326718050">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="929" height="262" key="GridCell.Tab.0.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1599326718050" />
+    <state width="929" height="262" key="GridCell.Tab.0.left" timestamp="1599326718049">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="929" height="262" key="GridCell.Tab.0.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1599326718049" />
+    <state width="929" height="262" key="GridCell.Tab.0.right" timestamp="1599326718050">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="929" height="262" key="GridCell.Tab.0.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1599326718050" />
+    <state width="1357" height="324" key="GridCell.Tab.1.bottom" timestamp="1597446549323">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1357" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597446549323" />
+    <state width="1357" height="324" key="GridCell.Tab.1.center" timestamp="1597446549323">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1357" height="324" key="GridCell.Tab.1.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597446549323" />
+    <state width="1357" height="324" key="GridCell.Tab.1.left" timestamp="1597446549323">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1357" height="324" key="GridCell.Tab.1.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597446549323" />
+    <state width="1357" height="324" key="GridCell.Tab.1.right" timestamp="1597446549323">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1357" height="324" key="GridCell.Tab.1.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597446549323" />
+    <state width="1357" height="324" key="GridCell.Tab.2.bottom" timestamp="1597446549323">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1357" height="324" key="GridCell.Tab.2.bottom/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597446549323" />
+    <state width="1357" height="324" key="GridCell.Tab.2.center" timestamp="1597446549323">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1357" height="324" key="GridCell.Tab.2.center/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597446549323" />
+    <state width="1357" height="324" key="GridCell.Tab.2.left" timestamp="1597446549323">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1357" height="324" key="GridCell.Tab.2.left/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597446549323" />
+    <state width="1357" height="324" key="GridCell.Tab.2.right" timestamp="1597446549323">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1357" height="324" key="GridCell.Tab.2.right/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597446549323" />
+    <state width="235" height="500" key="HiddenNamespacesPopup" timestamp="1596912838539">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="235" height="500" key="HiddenNamespacesPopup/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596912838539" />
+    <state x="153" y="89" key="MergeDialog" timestamp="1599325094970">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="153" y="89" key="MergeDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1599325094970" />
+    <state x="441" y="276" key="MultipleFileMergeDialog" timestamp="1596912084107">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="441" y="276" key="MultipleFileMergeDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596912084107" />
+    <state x="933" y="204" key="RollbackChangesDialog" timestamp="1595810459907">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="933" y="204" key="RollbackChangesDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595810459907" />
+    <state x="265" y="107" key="SettingsEditor" timestamp="1597446529155">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="265" y="107" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597446529155" />
+    <state x="549" y="118" width="1200" height="800" key="ShowDiffWithBranchDialog" timestamp="1596912075390">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="549" y="118" width="1200" height="800" key="ShowDiffWithBranchDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596912075390" />
+    <state x="897" y="354" key="Vcs.Push.Dialog.v2" timestamp="1597458324333">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="897" y="354" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597458324333" />
+    <state x="1000" y="303" width="648" height="594" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1597452511115">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="1000" y="303" width="648" height="594" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597452511115" />
+    <state x="947" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599326331272">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="947" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1599326331272" />
+    <state x="976" y="280" key="git4idea.branch.GitBranchIsNotFullyMergedDialog" timestamp="1595809109607">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="976" y="280" key="git4idea.branch.GitBranchIsNotFullyMergedDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595809109607" />
+    <state x="918" y="212" width="452" height="607" key="git4idea.branch.GitSmartOperationDialog" timestamp="1596908732614">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="918" y="212" width="452" height="607" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1596908732614" />
+    <state x="926" y="309" key="git4idea.merge.GitMergeDialog" timestamp="1595809090578">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="926" y="309" key="git4idea.merge.GitMergeDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595809090578" />
+    <state x="846" y="309" key="git4idea.merge.GitPullDialog" timestamp="1595810492292">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="846" y="309" key="git4idea.merge.GitPullDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1595810492292" />
+    <state x="922" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597458315769">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="922" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597458315769" />
+    <state x="815" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1597449151121">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="815" y="248" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597449151121" />
+    <state x="2413" y="438" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594439161024">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2413" y="438" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594439161024" />
+  </component>
+</project>
