@@ -22,4 +22,5 @@ urlpatterns = [
     path('', index, name='index'),#Path to the index.html template. Empty quotes are equivalent to '/' or localhost8000
     path('mission/', mission, name='mission'),
     path('', include('job_board.urls')),
+    path('', include('join_us.urls')),
 ]
