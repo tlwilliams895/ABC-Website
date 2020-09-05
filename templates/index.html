@@ -1,14 +1,18 @@
-{% extends "base.html" %}
-
-{% block content %}
-	<header>
-		<center> <h1>{{ message }} </h1></center> <!--Double curly braces allow you to display whatever is passed from the views.py via "context"-->	
-		<strong><center> <p>A community for people of color aspiring to begin and grow careers in tech together.</p></center></strong>
-	</header>
-		<!-- naming the classes based on the page links. -->
-		<center>
-			<div class = "join-us"><a href="join_us/">Join Us</a></div>
-			<div class = "learning-res">Learning Resources</div>
-			<div class = "job-board"><a href="job_board/">Job Board</a></div>
-		</center>
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% extends 'base.html' %}
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'admin/css/StyleSheet.css' %}">
+    <body>
+        {% block content %}
+        <!-- naming the classes based on the page links. -->
+        <div id="container">
+                <div id="header" class= "join-us"><a href="http://localhost:8000/join_us">Join Us</a></div>
+                <div id="header" class= "learning-res">Learning Resources</div>
+                <div id="header" class= "job-board"><a href="http://localhost:8000/job_board">Job Board</a></div>
+        </div>
+    {% endblock content %}
+</body>
+  
+</html>

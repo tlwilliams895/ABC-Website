@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-{% load static %}
-<html>
+<html lang="en">
     <head>
-        <title>{{ message }}</title>
-		<link href="{% static 'css/style.css' %}" rel="stylesheet">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'admin/css/StyleSheet.css' %}">
+
+        <Title>Aspiring Black Coders</Title>
     </head>
+	<header>
+        <h1> Aspiring Black Coders </h1> <!-- Double curly braces allow you to display whatever is passed from the views.py via "context"-->
+        <p id="tagLine"> <em> A community for people of color aspiring to begin and grow careers in tech together. </em></p>
+    </header>
     <body>
-        {% block content %}{% endblock %}
+        {% block content %}
+        {% endblock content %}
     </body>
 </html>

@@ -1,17 +1,9 @@
-from django.shortcuts import render #This allows you to render the template 
+from django.views import View
+from django.shortcuts import render
 
 
-#Function that takes an http request and returns the html template associated with the request
-def index(request):
-    message = "Aspiring Black Coders"
-    template_name = "index.html"
-    context = {'message': message} #Can be displayed using double curly brace notation in your html template
-    return render(request, template_name, context)
-
-
-def mission(request):
-    message = "A community for people of color aspiring to begin and grow careers in tech together. "
-    statement = "Insert mission statement below."
-    template_name = "mission.html"
-    context = {'message': message, 'statement': statement}
-    return render(request, template_name, context)
+# Create your views here.
+class Index(View):
+    @staticmethod
+    def get(request):
+        return render(request, 'index.html')

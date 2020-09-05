@@ -1,1 +1,26 @@
-Created New Branch MySqlDev
+(7/01/2020) Created New Branch MySqlDev
+
+(08/13/2020) removed the staticfiles folder and collected all static files into the admin folder in the parent app
+
+(8/14/2020) removed index and mission functions and created a class object TemplateView
+            created new joinUs/views.py file added url pattern to join_us project and parent project
+            deleted join_us.html rename joinUs to match class object call
+                --forms.py file should only read request from join_us.html as request and store data into db
+            templates folder contains all html files to serve website
+                --Will need to restructure for conventional web development practices
+            added base.html file (used to extend any projects to default heading and message)
+                --base.html hold the reusable html code that can be used on several other app pages
+            created new static function within the abc_website/views.py file
+            created forms.py to handle Post request to sample db
+            updated joinUs.html for form submissions
+            removed ContactID column (not needed) //May end up adding a textfield
+                --updated db with correct columns and max inputs
+            created function 'createContact' on join_us/views.py
+                --redirects back to homepage abc_website/index.html
+            updated parent views and url files to route to correct pages
+
+
+
+
+
+(8/14/2020) commit and push to mysqldevbranch

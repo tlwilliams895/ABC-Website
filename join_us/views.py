@@ -11,4 +11,4 @@ def createContact(request):
             return redirect('/')
     else:
         form = ContactForm()
-        return render(request, 'join_us/join_us.html', {'form': form})
+        return render(request, 'joinUs.html', {'form': form})
