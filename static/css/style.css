@@ -10,17 +10,6 @@ h1 {
     box-shadow: 2px 2px 4px #000000;				
 }
 
-p{
-    background-color: #9fcfbe;
-    padding: 0.50em;
-    color: white;
-    font-family: 'Lucida Grande';
-    font-size: 80%;	
-    box-shadow: 2px 2px 4px #000000;
-    
-}
-
- 
 /*.container {*/
     
 /* below was to center all of the page links, but its still a little off */
@@ -83,3 +72,12 @@ h1 {
 }
 
 /* End of job board specific css*/
+
+form {
+    background-color: #9fcfbe;
+    padding: 0.50em;
+    box-shadow: 2px 2px 4px #000000;
+    font-family: 'Lucida Grande';
+    font-size: 100%;
+    color: #2f3e39;
+}
