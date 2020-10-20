@@ -1,14 +1,19 @@
 {% extends "base.html" %}
 
 {% block content %}
-	<header>
-		<center> <h1>{{ message }} </h1></center> <!--Double curly braces allow you to display whatever is passed from the views.py via "context"-->	
-		<strong><center> <p>A community for people of color aspiring to begin and grow careers in tech together.</p></center></strong>
-	</header>
-		<!-- naming the classes based on the page links. -->
-		<center>
-			<div class = "join-us"><a href="join_us/">Join Us</a></div>
-			<div class = "learning-res"><a href="learning_resources/">Learning Resources</a></div>
-			<div class = "job-board"><a href="job_board/">Job Board</a></div>
-		</center>
+<body>
+	<p>
+		<h1 class="homepage">{{ message }} </h1>
+		<img src="C:/desktop/abc-website/templates/logo_draft.png" arc="logo">
+			<h2>A community for people of color aspiring to begin and grow careers in tech together.</h2>
+	</p>	
+		<ul>
+			<li>
+				<div class = "join-us"><a href="join_us/">Join Us</a></div>
+				<div class = "learning-res"><a href="learning_resources/">Learning Resources</a></div>
+				<div class = "job-board"><a href="job_board/">Job Board</a></div>
+			</li>
+		</ul>
+	
+</body>
 {% endblock %}

@@ -1,38 +1,77 @@
-/* editing the header backkground color, size etc */
 
-h1 {
 
-    background-color: #9fcfbe;
-    padding: 0.50em;
-    color: white;
-    font-family: 'Lucida Grande';
-    font-size: 200%;
-    box-shadow: 2px 2px 4px #000000;				
-}
-
-/*.container {*/
+.join-us , .learning-res, .job-board  {
     
-/* below was to center all of the page links, but its still a little off */
+    font-family: 'Work Sans', sans-serif;
+    color: #F1B24A;
+    font-size: 21px;
+    font-weight: bold;
+    display: inline; /* only occupies the space bound by the tags */
+    margin: 0;
+    padding: 10px;
+   
 
-/* below are squares, and shadow and spacing for the page links. Would like to build on this/update the code so it looks more like the wireframe. */
-
-
-div {
-    padding-top: 35px;
-    padding-right: 200px;
-    padding-bottom: 35px;
-    padding-left: 200px;
-    box-shadow: 2px 2px 4px #000000;
-    font-family: 'Lucida Grande';
-    font-size: 100%;
-    color: #2f3e39;
-    width: 60px;
 }
+
+ul {
+    list-style-type: none;    
+   
+}
+
+body {
+    background-color: #344472;
+
+}
+
+/* img {
+    position: ;
+    height: ;
+    width: ; */
+
+
+/*below ABC title. */
+
+
+.homepage {  /* need to give the ABC title on the homepage a specific id in html b/c changing the format of job board and other pagees  */
+     
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200px;
+    color: white;
+    font-size: 90px;
+    position: fixed;
+    top: 200px;
+                
+}
+
+/* below is the subtitle */
+
+
+h2 {
+
+   font-family: 'Crimson Text', serif;
+   font-weight: 100px;
+   color: #778899;
+   position: fixed;
+   top: 350px;
+   
+  
+
+}
+
 
 /* Job board css below */
 
+.latest_jobs {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+    border-bottom: 3px solid rgb(216, 193, 62);
+
+}
+
 .joblist {
-    background-color: #9fcfbe;
+    background-color: #adb6c0;
     width: 600px;
     padding: 10px;
     height: auto;
@@ -61,23 +100,62 @@ a:visited {
     color: #2f3e39;   
 }
 
-h1 {
-    text-align: center;
-}
+
 
 .jobinfo {
-    color: black;
+    color:rgb(32,32,32);
+    font-size: 25px;
     text-align: center;
     box-shadow: none;
 }
 
-/* End of job board specific css*/
+/* Beginning of join us specific css*/
 
-form {
-    background-color: #9fcfbe;
-    padding: 0.50em;
-    box-shadow: 2px 2px 4px #000000;
+.join-com{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+    border-bottom: 3px solid rgb(216, 193, 62);
+
+
+.form {
+ 
     font-family: 'Lucida Grande';
     font-size: 100%;
-    color: #2f3e39;
+    color: black;
+    font-weight: bold;
 }
+
+
+
+/* beginning of Learning Resources */
+
+.resources {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+    border-bottom: 3px solid rgb(216, 193, 62);
+}
+
+.python, .css, .html , .js {
+    background-color: #adb6c0;
+    width: 600px;
+    padding: 10px;
+    height: auto;
+    color: black;
+    border: 1px solid grey;
+    margin-left: 9.5em;
+    margin-top: 4em;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 5px 5px rgb(65, 64, 64);
+
+}
+
+ol {
+    list-style-type: none; 
+}
+
+/* end of Learning Resources */
