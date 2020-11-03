@@ -2,9 +2,11 @@
 
 {% block content %}
 
+{% load static %}
+
 <body>
 	
-	<img src= "{% static ‘abc_logo.png’ %}" alt="logo">
+	<img src= "{% static 'abc_logo.png' %}" alt="logo">
 	<p>
 		<h1 class="homepage">{{ message }} </h1>
 			<h2>A community for people of color aspiring to begin and grow careers in tech together.</h2>
