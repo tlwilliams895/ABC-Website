@@ -1,10 +1,12 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
 
 {% block content %}
+{% load static %}
 	<header>
 		<center> <h1>{{ message }} </h1></center> <!--Double curly braces allow you to display whatever is passed from the views.py via "context"-->	
 		<strong><center> <p>A community for people of color aspiring to begin and grow careers in tech together.</p></center></strong>
 	</header>
+	<img src="{% static 'img/abc_logo.png' %}" alt="" width="400px" height="500">
 		<!-- naming the classes based on the page links. -->
 		<center>
 			<div class = "join-us"><a href="join_us/">Join Us</a></div>
