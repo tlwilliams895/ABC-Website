@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from .views import index, learning_resources #Imports the index view which we created in views.py file
+from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
