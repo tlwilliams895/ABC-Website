@@ -1,23 +1,31 @@
+/* BELOW ABC NAV BAR */
 
 
-.join-us , .learning-res, .job-board  {
+.navbar-right {
     
-    font-family: 'Work Sans', sans-serif;
-    color: #F1B24A;
-    font-size: 21px;
-    font-weight: bold;
     display: inline; /* only occupies the space bound by the tags */
+    list-style-type: none;
     margin: 0;
-    padding: 10px;
-   
-
+    padding: 0px 20px;
+    float: right;
+    
 }
 
-ul {
-    list-style-type: none;    
-   
+
+.navbar-right a {
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: rgb(216, 193, 62);
+    text-decoration: none;
+    
 }
 
+.navbar-right a:hover {
+   font-weight: bold;
+
+
+}
 body {
     background-color: #344472;
 
@@ -29,7 +37,7 @@ body {
     width: ; */
 
 
-/*below ABC title. */
+/*BELOW ABC TITLE */
 
 
 .homepage {  /* need to give the ABC title on the homepage a specific id in html b/c changing the format of job board and other pagees  */
@@ -43,23 +51,24 @@ body {
                 
 }
 
-/* below is the subtitle */
+/* BELOW IS THE SUBTITLE/MISSION STATEMENT */
 
 
 h2 {
 
    font-family: 'Crimson Text', serif;
-   font-weight: 100px;
+   font-weight: bold;
    color: #778899;
    position: fixed;
    top: 350px;
+   font-size: 27px;
    
   
 
 }
 
 
-/* Job board css below */
+/* JOB BOARD CSS BELOW  */
 
 .latest_jobs {
     text-align: center;
@@ -91,15 +100,6 @@ button {
     box-shadow: 2px 2px rgb(65, 64, 64);
 }
 
-a {
-    color: #2f3e39;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #2f3e39;   
-}
-
 
 
 .jobinfo {
@@ -109,7 +109,7 @@ a:visited {
     box-shadow: none;
 }
 
-/* Beginning of join us specific css*/
+/* BEGINNING OF JOIN US PAGE CSS */
 
 .join-com{
     text-align: center;
@@ -117,7 +117,7 @@ a:visited {
     font-size: 50px;
     font-family: 'Work Sans', sans-serif;
     border-bottom: 3px solid rgb(216, 193, 62);
-
+}
 
 .form {
  
@@ -129,28 +129,18 @@ a:visited {
 
 
 
-/* beginning of Learning Resources */
+/* BEGINNING OF LEARNING RESOURCES */
 
 .resources {
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Work Sans', sans-serif;
     border-bottom: 3px solid rgb(216, 193, 62);
 }
 
 .python, .css, .html , .js {
-    background-color: #adb6c0;
-    width: 600px;
-    padding: 10px;
-    height: auto;
-    color: black;
-    border: 1px solid grey;
-    margin-left: 9.5em;
-    margin-top: 4em;
-    display: inline-block;
-    text-align: center;
-    box-shadow: 5px 5px rgb(65, 64, 64);
+   color: black;
 
 }
 
@@ -158,4 +148,4 @@ ol {
     list-style-type: none; 
 }
 
-/* end of Learning Resources */
+/* END OF LEARNING RESOURCES  */

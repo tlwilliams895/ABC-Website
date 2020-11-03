@@ -1,19 +1,18 @@
 {% extends "base.html" %}
 
 {% block content %}
+
 <body>
+	
+	<img src= "{% static ‘abc_logo.png’ %}" alt="logo">
 	<p>
 		<h1 class="homepage">{{ message }} </h1>
-		<img src="C:/desktop/abc-website/templates/logo_draft.png" arc="logo">
 			<h2>A community for people of color aspiring to begin and grow careers in tech together.</h2>
-	</p>	
-		<ul>
-			<li>
-				<div class = "join-us"><a href="join_us/">Join Us</a></div>
-				<div class = "learning-res"><a href="learning_resources/">Learning Resources</a></div>
-				<div class = "job-board"><a href="job_board/">Job Board</a></div>
-			</li>
-		</ul>
-	
+	</p>
+		<div class="navbar-right">	
+				<a href="join_us/">Join Us</a>
+				<a href="learning_resources/">Learning Resources</a>
+				<a href="job_board/">Job Board</a>
+		</div>
 </body>
 {% endblock %}
