@@ -123,13 +123,6 @@ STATIC_URL = '/static/'
 
 #The below tells django what directories it should look for static files in
 
-
-#STATICFILES_DIRS = [
-#    os.path.join(BASE_DIR, '/static/'),
-#]
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
     '/job_board/' ,
