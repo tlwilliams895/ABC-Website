@@ -1,24 +1,60 @@
 {% extends "base.html" %}
 
 {% block content %}
-<center><h1 class="resources">Learning Resources</h1></center>
- 
-    <h2 class="python">Python</h2>
-        <ul>
-            <li><a href="https://www.freecodecamp.org">FreeCodeCamp</a></li>
-            <li><a href="https://www.python.org/doc/">Python Documentation</a></li>
-        </ul>
-    <h2 class= "js">Javascript</h2>
-        <ul>
-            <li><a href="https://learnjavascript.online/">Learn Javascript</a></li>
-            <li><a href="https://www.learn-js.org/">Learn JS</a></li>
-        </ul>
-    <h2 class= "html">HTML</h2>
-        <ul>
-            <li><a href="https://www.w3schools.com/html/default.asp">w3schools</a></li>
-        </ol>
-    <h2 class= "css"> CSS</h2>
-        <ul>
-            <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
-        </ul>
-        {% endblock %}
+
+{% load static %}
+
+<center><h1 class="resources-title">Learning Resources</h1></center>
+    <body>
+        <div class="container">
+            <div class="lang1">
+                
+                    <a href="https://www.freecodecamp.org"><img src="{% static 'img/freecodecamp.png' %}" width="200" height="200" alt="FCC" class="res-img"></a>
+                        <p> You can use freecodecamp to learn Python</p>
+    
+            </div>
+            
+            
+
+            
+            <div class= "lang2">
+               
+                    <a href="https://www.python.org/doc/"><img src=" {% static 'img/pythondoc.png' %}" width="200" height= "200" alt="python doc" class="res-img"></a>
+                       <p> You can use python.org to learn Python</p>
+                
+            </div>  
+           
+          
+            
+           
+              
+            <div class="lang3">
+                    <a href="https://learnjavascript.online/"><img src=" {% static 'img/learnjs.png' %}" width="200" height= "200" alt="python doc" class="res-img"></a>
+                       <p>You can use learn js to learn Javascript</p>
+               
+            </div>
+         
+
+            
+               
+            <div class="lang4">
+                <a href="https://www.w3schools.com/html/default.asp"><img src=" {% static 'img/w3schools.png' %}" width="200" height= "200" alt="pythondoc" class="res-img"></a>
+                   <p>You can use w3schools to learn HTML</p>
+                
+            </div>
+       
+
+         
+              
+            <div class="lang5"> 
+                <a href="https://css-tricks.com/"><img src=" {% static 'img/w3schools.png' %}" width="200" height= "200" alt="pythondoc" class="res-img"></a>
+                   <p>You can use w3schools to learn CSS</p>
+                
+            </div>
+        </div>
+          
+       
+       
+    </body>
+
+{% endblock %}

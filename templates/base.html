@@ -7,6 +7,14 @@
 		<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
     </head>
     <body>
+        <img src= "{% static 'img/abc_logo.png' %}" alt="logo" height="80" width="80">
+
+        <div class="navbar" id="myNavbar">
+                <a href="/">Home</a>
+                <a href="localhost:8000/job_board/">Job Board</a>
+                <a href="join_us/">Join Us</a>
+                <a href="learning_resources/">Learning Resources</a>                  
+        </div>
         {% block content %}{% endblock %}
     </body>
 </html>
