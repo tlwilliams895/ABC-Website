@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'job_board',
     'join_us',
+    'learning_platform',
 ]
 
 MIDDLEWARE = [
