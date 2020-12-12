@@ -13,7 +13,8 @@
                 <a href="{% url 'index' %}">Home</a>
                 <a href="{% url 'job_board:get_jobs' %}">Job Board</a>
                 <a href="{% url 'join_us:contact' %}">Join Us</a>
-                <a href="{% url 'resources' %}">Learning Resources</a>                  
+                <a href="{% url 'resources' %}">Learning Resources</a>
+                <a href="{% url 'learning_platform:learning_platform' %}">Learning Platform</a>                     
         </div>
         {% block content %}{% endblock %}
     </body>

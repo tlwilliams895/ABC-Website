@@ -128,4 +128,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
     '/job_board/' ,
     '/join_us/',
+    '/learning_platform/'
 ]
