@@ -24,4 +24,5 @@ urlpatterns = [
     path('job_board/', include('job_board.urls')),
     path('join_us/', include('join_us.urls')),
     path('learning_resources/', learning_resources, name="resources"),
+    path('learning_platform/', include('learning_platform.urls')),
 ]
