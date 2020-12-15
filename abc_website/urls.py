@@ -21,7 +21,8 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),#Path to the index.html template. Empty quotes are equivalent to '/' or localhost8000
-    path('', include('job_board.urls')),
-    path('', include('join_us.urls')),
+    path('job_board/', include('job_board.urls')),
+    path('join_us/', include('join_us.urls')),
     path('learning_resources/', learning_resources, name="resources"),
+    path('learning_platform/', include('learning_platform.urls')),
 ]

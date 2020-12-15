@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'job_board',
     'join_us',
+    'learning_platform',
 ]
 
 MIDDLEWARE = [
@@ -127,4 +128,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
     '/job_board/' ,
     '/join_us/',
+    '/learning_platform/'
 ]
