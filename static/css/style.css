@@ -6,16 +6,17 @@
     background-color: rgba(56, 54, 54, 0.466);
     width: 100%;
     height: 55px;
-    padding: 0;
-    margin: 0;
-    text-align: right;
+    padding: 0; /* positions navbar at the top of screen */
+    margin: 0; /* stretches navbar accross the screen */
+    text-align: right; /* made all the links to the right of the navbar */
+    
     
     
 }   
     
 
 
-.navbar a {
+.navbar a {   /* how the text looks in the navbar  */
 
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
@@ -29,7 +30,7 @@
 }
 
 .navbar a:hover {
-   font-weight: bold;
+   font-weight: bold;  /* when you hover over with mouse its bold. */
 
 }
 
@@ -37,14 +38,14 @@
 
 body {
     background-color: #344472;
-    margin: 0;
+    margin: 0; /*  for some reason makes the navbar stretch all the way across? */  */
 
 }
 
 img {
-    position: fixed;
-    top: 0px;
-    float: left;
+   /* position: fixed; /* keeps the image at the top while you scroll */  
+    top: 0px; /* keeps logo at the top of the screen */
+    float: left; /* keeps logo in upper left hand corner */
     
 
 }
@@ -52,7 +53,7 @@ img {
 /*BELOW ABC TITLE */
 
 
-.homepage {  
+.homepage {  /* ABC on the homepage  */
      
     font-family: 'Work Sans', sans-serif;
     font-weight: 200px;
@@ -66,15 +67,14 @@ img {
 /* BELOW IS THE SUBTITLE/MISSION STATEMENT */
 
 
-h2 {
+h2 {    /*  subtitle on the home page  */
 
    font-family: 'Crimson Text', serif;
    font-weight: bold;
    color: rgb(199, 173, 24);
    position: fixed;
    top: 350px;
-   font-size: 27px;
-   
+   font-size: 27px; 
   
 
 }
@@ -162,13 +162,20 @@ button {
 
 
 
+.container {                 /* inline block to line up links and description */
+    height: 200px;
+		width: 600px;
 
-
+	
+   
+}
 
 .res-img {
-    
-    position: relative;
-    float: left;
+    height: 250px;
+		width:  480px;
+		display: inline-block;
+		padding: 10px;
+		font-size: 20px;
     
    
 }
@@ -178,6 +185,9 @@ p {
     color: white;
 }
 
+#image {
+		border-radius: 15px;
+}
 
 
 /*
@@ -237,7 +247,7 @@ p {
 
 
 
-*/
+
 
 
 
