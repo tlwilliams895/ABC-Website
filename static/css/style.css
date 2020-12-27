@@ -3,7 +3,7 @@
 
 .navbar {
     
-    background-color: rgba(56, 54, 54, 0.466);
+    background-color: #2b365e;
     width: 100%;
     height: 55px;
     padding: 0; /* positions navbar at the top of screen */
@@ -89,22 +89,22 @@ h2 {    /*  subtitle on the home page  */
     font-size: 90px;
     font-weight: normal;
     font-family: 'Work Sans', sans-serif;
-    border-bottom: 1px solid rgb(216, 193, 62);
+    border-bottom: 1px solid  rgb(199, 173, 24);
 
 }
 
 .joblist {
-    background-color: #adb6c0;
+    background-color: #616e9b;
     width: 600px;
     padding: 10px;
     height: auto;
-    color: black;
-    border: 1px solid grey;
+    color: white;
     margin-left: 9.5em;
     margin-top: 4em;
     display: inline-block;
     text-align: center;
-    box-shadow: 5px 5px rgb(65, 64, 64);
+		box-shadow: 5px 5px #363e5a;
+		border-radius: 5px;
 }
 
 button {
@@ -117,7 +117,7 @@ button {
 
 
 .jobinfo {
-    color:rgb(32,32,32);
+    color: white;
     font-size: 25px;
     text-align: center;
     box-shadow: none;
@@ -135,7 +135,7 @@ button {
     font-weight: normal;
     white-space: nowrap;
     font-family: 'Work Sans', sans-serif;
-    border-bottom: 2px solid rgb(216, 193, 62);
+    border-bottom: 1px solid  rgb(199, 173, 24);
 }
 
 .form {
@@ -157,95 +157,58 @@ button {
     font-size: 90px;
     font-weight: normal;
     font-family: 'Work Sans', sans-serif;
-    border-bottom: 2px solid rgb(216, 193, 62);
+    border-bottom: 1px solid  rgb(199, 173, 24);
 }
 
-
-
-.container {                 /* inline block to line up links and description */
-    height: 200px;
-		width: 600px;
-
-	
-   
-}
-
-.res-img {
-    height: 250px;
-		width:  480px;
-		display: inline-block;
-		padding: 10px;
-		font-size: 20px;
-    
-   
-}
 
 p {
-    font-family: 'Work Sans', sans-serif;
-    color: white;
+	font-family: 'Work Sans', sans-serif;
+	color: white;
+
 }
 
-#image {
-		border-radius: 15px;
+.img {
+	border-radius: 5px;
+
 }
 
+.container {
+	display:flex;
+	align-content: center;
+	
+	
+	
+}
 
-/*
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* sets the direction that lines are stacked. */ 
+	margin: 80px; /* Increased margins between links and descriptions vertically on each row */
+  border-radius: 5px;	
 
- .container {
+}
 
-    display: grid;
-    grid-template-areas: 
+.column {
+  display: flex;
+	flex-direction: column; 
+	flex-shrink: 2;
+	margin: 40px;
 
-    "lang1 lang1 lang2 lang2"
-    "lang1 lang1 lang2 lang2"
-    "lang3 lang3 lang4 lang4"
-    "lang3 lang3 lang4 lang4";
+}
 
-    gap: 10px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 100px);
-    inline-size: 500px;
+.box {
+	background-color: #5e6b9b;
+	padding: 2px;
+	margin: 30px;
+	border-radius: 5px;
+	align-content: center;
+}
 
- }
-
- .lang1 {
-     grid-area: lang1;
-
- }
-
- .lang2 {
-     grid-area: lang2;
-
- }
-
- .lang3 {
-     grid-area: lang3;
-
- }
-
- .lang4 {
-     grid-area: lang4;
-
- }
-
- .lang4 {
-     grid-area: lang5;
-
- }
-*/
-
-
-
-
-
-
-
-
-
-
-
-
+.descrip {
+	flex-shrink: 2;
+	align-content: center;
+}
 
 
 
