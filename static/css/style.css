@@ -8,7 +8,8 @@
     height: 55px;
     padding: 0; /* positions navbar at the top of screen */
     margin: 0; /* stretches navbar accross the screen */
-    text-align: right; /* made all the links to the right of the navbar */
+		text-align: right; /* made all the links to the right of the navbar */
+	
     
     
     
@@ -157,7 +158,8 @@ button {
     font-size: 90px;
     font-weight: normal;
     font-family: 'Work Sans', sans-serif;
-    border-bottom: 1px solid  rgb(199, 173, 24);
+		border-bottom: 1px solid  rgb(199, 173, 24);
+	
 }
 
 
@@ -172,11 +174,14 @@ p {
 
 }
 
+/* .res-image {
+	align-content: center; */
+}
+
 .container {
-	display:flex;
-	align-content: center;
-	
-	
+	display: flex;
+	align-items: center;
+
 	
 }
 
@@ -189,32 +194,46 @@ p {
 
 }
 
+.box {
+	background-color: #5e6b9b98;
+	height: 490px;
+	width: 550px;
+	padding: 2px;
+	margin: 20px;
+	border-radius: 5px;
+	box-sizing: border-box;
+
+
+	
+}
+
+
 .column {
   display: flex;
 	flex-direction: column; 
 	flex-shrink: 2;
 	margin: 40px;
+	align-items: center;
 
 }
 
-.box {
-	background-color: #5e6b9b;
-	padding: 2px;
-	margin: 30px;
-	border-radius: 5px;
-	align-content: center;
-}
 
 .descrip {
 	flex-shrink: 2;
 	align-content: center;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 17px;
+
+	
 }
 
 
+/* Beginning of Learning Platform CSS */
 
+.platform-content {
 
+	font-family: 'Work Sans', sans-serif;
+	font-size: 70px; 
+	font-style: italic;
 
-
-
-
-/* END OF LEARNING RESOURCES  */
+}
