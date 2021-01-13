@@ -44,8 +44,8 @@ body {
 }
 
 img {
-   /* position: fixed; /* keeps the image at the top while you scroll */  
-    top: 0px; /* keeps logo at the top of the screen */
+  
+    top: 1px; /* keeps logo at the top of the screen */
     float: left; /* keeps logo in upper left hand corner */
     
 
@@ -202,6 +202,8 @@ p {
 	margin: 20px;
 	border-radius: 5px;
 	box-sizing: border-box;
+	box-shadow: 10px 10px #1b1f2c2a;
+	;
 
 
 	
