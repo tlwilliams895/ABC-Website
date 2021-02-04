@@ -3,10 +3,6 @@
 import os
 import sys
 
-from django.core.management.commands.runserver import Command as runserver
-
-runserver.default_port = "8080"
-
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'abc_website.settings')
