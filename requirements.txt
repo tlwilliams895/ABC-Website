@@ -1,0 +1,55 @@
+abc-website==0.1.0
+appdirs @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/68/c7/33/ef0f6af8d1aa906f1a5641762fe5d6f47d565c5a4b3482f1c6fb0f5f20/appdirs-1.4.4-py2.py3-none-any.whl
+asgiref @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/2f/24/9b/a08364ee8296366b41a09aab01b89fa8b78c9ff17b5c20ca9c3ed6cd88/asgiref-3.3.2-py3-none-any.whl
+autopep8 @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/e1/31/70/a12cfe06612a20fec84090eaa1d011ba66b9372a810cb06b1d46d8ffab/autopep8-1.5.6-py2.py3-none-any.whl
+Babel @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/e3/ab/8c/e6b588d52a460a9eca8f0b62cffeb18d90d8631d8b5c7e180c56b123f8/Babel-2.9.0-py2.py3-none-any.whl
+backcall @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/62/2c/f2/bf9c43ca0bcfca41150901227b0d023dc854851b710f82a72f5beaa09b/backcall-0.2.0-py2.py3-none-any.whl
+black @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/38/f4/61/550fd050005dc1c64850374a7f98dd941a4633d72e87f147bebf26bdc3/black-20.8b1.tar.gz
+certifi==2020.12.5
+cffi @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/cf/25/46/fba32f6d9f6905002c6effaf3af43b2dc09c22ec500ea40c30a8e7ca8f/cffi-1.14.5-cp38-cp38-manylinux1_x86_64.whl
+chardet==4.0.0
+click @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/30/bc/bf/e00ffd8f0edf0294942e70e80e42a839bd2649d2c5b864e6389e526d2a/click-7.1.2-py2.py3-none-any.whl
+cryptography @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/a2/0d/20/95fa12ee585d16b64030f70b5d5ebed15e10bc1a01f2107f5c485907bf/cryptography-3.4.7-cp36-abi3-manylinux2014_x86_64.whl
+decorator @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/6c/40/fb/829c405f93d34232b80eefe1f5ce5f6892017f08cc87da5759136bf3be/decorator-5.0.5-py3-none-any.whl
+defusedxml @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/15/b0/94/888992ee7b1de9fbc975b6afd17d34f441df6e96172df8d4eba95c9432/defusedxml-0.7.1-py2.py3-none-any.whl
+Django @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/7a/41/f7/c037d411b9f985a3a6a97136b7916a1b98d7522b0b1563152c85d0b647/Django-3.1.7-py3-none-any.whl
+django-allauth @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/25/e7/0a/2dee1609da7f268b113877b5d0ea75f42c0dbb1e345d3c2c4d96a90f38/django-allauth-0.44.0.tar.gz
+django-environ @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/02/f5/07/088c90fb343e0afae07fa494be4114b30189c29231a92d744f3234fb0f/django_environ-0.4.5-py2.py3-none-any.whl
+django-phonenumber-field @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/25/1e/d3/f503dfd978e1f634d25b9eebdc8a0f0567a664891679f37f5e08ef41e3/django_phonenumber_field-5.0.0-py3-none-any.whl
+django-request==1.5.6
+flake8 @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/35/12/2a/5f66e6552c711cbd5782ca3a5c7d0884e2ee44cd1030b0af790b83f170/flake8-3.9.0-py2.py3-none-any.whl
+idna==2.10
+ipdb @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/f6/0e/27/6ad9fd2be5e413ca536ef5ebfcac24a6a89265e9bf051a40bb6e06686a/ipdb-0.13.7.tar.gz
+ipython @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/e5/a5/d2/594c436b2bd03f373d1888a6503a73127622aed7be86aebefbbc1a09c7/ipython-7.22.0-py3-none-any.whl
+ipython-genutils @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/e6/8e/a3/8f37e14310c0072b3fcc4240490bcb42630aa695d069aee89953ebd9f8/ipython_genutils-0.2.0-py2.py3-none-any.whl
+jedi @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/42/26/07/496d2180e241dbf58cf832e0c7a617d8fcbdd6f3f93937056d106545fc/jedi-0.18.0-py2.py3-none-any.whl
+mccabe @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/37/6e/69/4a33a4d6c80c775b1ee205face2c6e07b762c8602bb0f0d236ebe790c5/mccabe-0.6.1-py2.py3-none-any.whl
+mypy-extensions @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/b6/a0/b0/a5dc9acd6fd12aba308634f21bb7cf0571448f20848797d7ecb327aa12/mypy_extensions-0.4.3-py2.py3-none-any.whl
+oauthlib @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/2a/c5/81/4a81a78315addb9d59efeeaf5d41fd9a0c5237c8bb8959ee225fd5cca5/oauthlib-3.1.0-py2.py3-none-any.whl
+parso @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/22/e1/fb/1f6342ec76fc3368aca0b5266c38f9a44c03e1003f904397fd31c0df0c/parso-0.8.2-py2.py3-none-any.whl
+pathspec @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/5d/98/c8/c7cd4decd7943aa5647824d8553b40e86f4e2ef814ca2a4e73ee708f7f/pathspec-0.8.1-py2.py3-none-any.whl
+pexpect @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/c0/05/08/f23ddb8e3d5b19e7cf01eb434220310be2aaf69226bdec78bc53589024/pexpect-4.8.0-py2.py3-none-any.whl
+phonenumbers @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/79/cc/6f/2bec57dd2268d94bc7ecfd7b3f8fc29ad91bebeb86b6ee1fb97d87d9a6/phonenumbers-8.12.21-py2.py3-none-any.whl
+pickleshare @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/27/b2/0a/93a92c700a1993b2923519262ddf76a629bd459a0597c0ae28bf80c7a6/pickleshare-0.7.5-py2.py3-none-any.whl
+Pillow @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/1a/25/08/8d31b82ab0665362114a66fd786bbe5519d25ccbf2645c514720ef3a24/Pillow-8.2.0-cp38-cp38-manylinux1_x86_64.whl
+prompt-toolkit @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/b9/d1/38/231fc80979af8084d0746ac9e5bcaceb6ae7412ed7c1c1c537659d117f/prompt_toolkit-3.0.18-py3-none-any.whl
+ptyprocess @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/b5/84/64/9519e6926ac101cbc8d93423b8165f4abac4f8a8e3e099f74d3c7e0e67/ptyprocess-0.7.0-py2.py3-none-any.whl
+pycodestyle @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/ea/27/4a/ce8e18f033aae28e47dc2895901dce76e10e7c9efc48bcd95ab4443c47/pycodestyle-2.7.0-py2.py3-none-any.whl
+pycparser @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/f1/03/25/40eb46f7bede64f78ba073e2141b8216e611cbcde72e3117c326560101/pycparser-2.20-py2.py3-none-any.whl
+pyflakes @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/b0/73/41/34d4d02987e40ffa6ee0292425303a75b4178476bf134ceaf0585a9faf/pyflakes-2.3.1-py2.py3-none-any.whl
+Pygments @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/5c/f1/32/290ecc98cb0128481ae2a7fcc324222b493bcd6696fb26405c70eda87c/Pygments-2.8.1-py3-none-any.whl
+PyJWT @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/81/94/52/aa44c4c334cad86ba816f68df847f6cabf94aa9152147719ce0c19fb66/PyJWT-2.0.1-py3-none-any.whl
+python-dateutil==2.8.1
+python3-openid @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/22/2f/32/795b947c687995897bdcec676fd1c493ed66e98c4af9c601fb4b8ce06a/python3_openid-3.2.0-py3-none-any.whl
+pytz @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/19/50/c9/f8bffb0360052b3c85b912bc4172f824bc2571e24002806fb3a428302e/pytz-2021.1-py2.py3-none-any.whl
+regex @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/15/00/04/5115ac21091b41f86b542dc12682001c0cddfbadc82b17ecd182409e3c/regex-2021.4.4-cp38-cp38-manylinux2014_x86_64.whl
+requests==2.25.1
+requests-oauthlib @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/93/9e/43/0dbe21742ed37c1ceeb4f2533e99279ab723f0982020584d6133946ad5/requests_oauthlib-1.3.0-py2.py3-none-any.whl
+six==1.15.0
+sqlparse @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/f6/9e/b8/b33d7ab31a08d0f94b260c990d807e12f38e0ffb105a4c2ca9ad9a6434/sqlparse-0.4.1-py3-none-any.whl
+toml @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/9f/8c/c3/7b4f6778d60f3c9fa11f8fd0e48243bbad25a04975e0a01006b6350594/toml-0.10.2-py2.py3-none-any.whl
+traitlets @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/8a/f4/fd/48c1725dcdd56393737bb0696379f91042dae8fbe51d06801caadfb12b/traitlets-5.0.5-py3-none-any.whl
+typed-ast @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/7d/97/79/f9eecff289044d0c21f1a65724cabcb6f00068e17f1cb5d16154d73a6a/typed_ast-1.4.2-cp38-cp38-manylinux1_x86_64.whl
+typing-extensions @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/ac/8f/3a/97dfae6ca13a6e156f19a5e8aa95fc250129d7e5e6cd0f7c76a1d45b4f/typing_extensions-3.7.4.3-py3-none-any.whl
+urllib3 @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/07/e4/ee/0871e5b17849295d410e39a10a8be74439d3dbf1f39a6dd1af25e32754/urllib3-1.26.4-py2.py3-none-any.whl
+wcwidth @ file:///home/tlwilliams895/.cache/pypoetry/artifacts/36/68/e2/7232f431072d5e8aeec124120b9a1d095d45da10311d271fac10982473/wcwidth-0.2.5-py2.py3-none-any.whl

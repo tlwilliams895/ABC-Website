@@ -10,8 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
+import environ
 # from pathlib import Path
 import os
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,13 +27,20 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get(
-    'DJANGO_SECRET',
-    'b45g0d7g7soat69q%*f7ae($8y$eybk(6e-)xfic_jd4!f4721'
-)
+# Thanks DjangoCentral for the tutorial on .env files!
+# https://djangocentral.com/environment-variables-in-django/
+
+env = environ.Env()
+# reading .env file
+environ.Env.read_env()
+
+# Raises django's ImproperlyConfigured exception if SECRET_KEY not
+# in os.environ
+SECRET_KEY = env("SECRET_KEY", default="unsafe-secret-key")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env('DEBUG', default=False, cast=bool)
+TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = ['*']
 
@@ -87,7 +96,11 @@ WSGI_APPLICATION = 'abc_website.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        "NAME": env("DATABASE_NAME"),
+        "USER": env("DATABASE_USER"),
+        "PASSWORD": env("DATABASE_PASSWORD"),
+        "HOST": env("DATABASE_HOST"),
+        "PORT": env("DATABASE_PORT"),
     }
 }
 
@@ -130,11 +143,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-#The below tells django what directories it should look for static files in
+# The below tells django what directories it should look for static files in
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
-    '/job_board/' ,
+    '/job_board/',
     '/join_us/',
     '/learning_platform/'
 ]
